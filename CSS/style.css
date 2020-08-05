@@ -43,7 +43,7 @@ h1
 	padding: 0;
 	margin: 0;
 	list-style: none;
-	box-sizing: border-box;
+/*	box-sizing: border-box;*/
 	outline: none;
 	font-weight: normal;
 }
@@ -203,7 +203,7 @@ body {
 		  margin-top:0%;
 		  margin-bottom:0%;
 		  z-index:99999;
-      padding-left: 10px;
+     /* padding-left: 10px;*/
 	  	background-color: rgba(34, 34, 34, 1);
       }
       
@@ -523,8 +523,8 @@ margin-left: 4%;
 a.phot img{
 	/* background: #fc0; /* Цвет фона */
     box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
-    width: 300px;
-    height:250px;
+    width: 200px;
+    height:350px;
     margin-top: 2%;
     opacity: 0; 
     transform: scale(1.3);
@@ -533,17 +533,16 @@ a.phot img{
 	/*border:3px solid black; /* рамка картинок */
 	/*padding: 10px; /* Поля вокруг текста */
     margin-bottom: 8%; /* Отступ снизу */
-	transform: rotate(90deg);
 }
 a.phot:hover img{/*phot*/
 	border:3px solid grey /*#034F80*/; /* изменение цвета рамки при наведении на картинку */
 	box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Параметры тени */
-	transform: rotate(80deg);
+	transform: rotate(2deg);
 }
 
 a.photo
-{ min-width: 180px;
-  min-height:150px;
+{ width: 200px;
+  height:150px;
  /* рамка картинок 
 
 	padding:0%;*/
@@ -609,7 +608,7 @@ article
 	font-size:24pt;
 	text-align:left;
 	text-indent:1.27pt;
-    margin-top: 3%;
+    margin-top: 4%;
 	position: relative;
 	display: flexbox;
     left: 0;
@@ -659,10 +658,10 @@ footer
   and float them to left and set its border and border-radius.
  */
 .wrapper ul li {
-  width: 85px;
-  height: 85px;
-  line-height: 85px;
-  margin: 0 15px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0 13px;
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
@@ -831,7 +830,6 @@ div.scrollup:hover {
 {
 max-width: 20px;
 }
-
 .sec
 {
 	/*margin: 0%; /* Отступы вокруг элемента */
@@ -840,7 +838,18 @@ max-width: 20px;
 	/*font-family: "Syper Pyper Chrift;";*/
     padding-top:0%;
     font-style: oblique;
-	font-size:14pt;
+  font-size:14pt;
+}
+.sec_p
+{
+	/*margin: 0%; /* Отступы вокруг элемента */
+	margin-left: 5%;
+    margin-right: 2%;
+	/*font-family: "Syper Pyper Chrift;";*/
+    padding-top:0%;
+    font-style: oblique;
+  font-size:20pt;
+  width:71%;
 }
 
 @media(max-width: 740px){
